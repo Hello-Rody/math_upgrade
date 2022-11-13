@@ -23,7 +23,7 @@
 > This is output
 > This function calculates the summation
 > First, we need to define an arbitrary function
->Enter any function, an integer at the beginning of the addition, and an integer at the end of the addition as >arguments
->For example, in the above program
->Σ\[k=1~10](3x-2)
->and similar operations
+> Enter any function, an integer at the beginning of the addition, and an integer at the end of the addition as >arguments
+> For example, in the above program
+> Σ\[k=1~10](3x-2)
+> and similar operations
