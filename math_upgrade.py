@@ -119,17 +119,19 @@ def less_P(n):
 	return lesses
 
 def pi(n):
-	"""nより小さい素数の個数を返します(素数計算関数)"""
-	return len(less_P(n-1))
+	"""n以下の素数の個数を返します(素数計算関数)"""
+	return len(less_P(n))
 
-def phi(n):
-	"""nと互いに素なn以下の自然数の個数を返します"""
+def coprime(n):
+	"""nと互いに素なn以下の自然数を返します"""
 	num = []
 	for i in range(1,n+1):
 		if gcd(n,i) == 1:
 			num.append(i)
 
-	return len(num)
+	return num
 
-
+def totient(n):
+	"""n以下のnと互いに素な自然数の個数を返します(オイラーのφ関数)"""
+	return len(coprime(n))
 
