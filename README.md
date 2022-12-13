@@ -57,12 +57,12 @@
 > n番目の素数を返します
 > P_n_1(n)とP_n_2(n)について、返り値は同じですが処理速度はP_n_2のほうが200倍ほど高速です
 
-	result1 =math.P_n_1(125)
-	result2 = math.P_n_2(413)
+	result1 =math_upgrade.P_n_1(125)
+	result2 = math_upgrade.P_n_2(413)
 	print(result1, result2)
 > 実行結果
 
-```> 691,2843⏎```
+```> 691 2843⏎```
 
 
 ### less_P(n)
