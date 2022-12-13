@@ -68,7 +68,7 @@
 ### less_P(n)
 > n以下の素数のリストを返します
 
-	result = less_P(100)
+	result = math_upgrade.less_P(100)
 	print(result)
 
 > 実行結果
