@@ -31,14 +31,14 @@
 
 ```> 3628800⏎```
 
-### summation(fac,m,n)
-> 任意の関数の総和( Σ[k=m~n]fac(k) )を返します
+### summation(function,m,n)
+> 任意の関数の総和( Σ[k=m~n]function(k) )を返します
 > 
 > 事前に関数を定義する必要があります
 > 
 > 第一引数には関数、第二には足し始めの整数、第三には足し終わりの整数を代入してください
 
-	def fac(x):
+	def function(x):
 		return 3 * x - 2
 	result = math_upgrade.summation(fac,1,10)
 	print(result)
