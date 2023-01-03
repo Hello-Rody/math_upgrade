@@ -40,7 +40,7 @@
 
 	def function(x):
 		return 3 * x - 2
-	result = math_upgrade.summation(fac,1,10)
+	result = math_upgrade.summation(function,1,10)
 	print(result)
 > 実行結果
 
